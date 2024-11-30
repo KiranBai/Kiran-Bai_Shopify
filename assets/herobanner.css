@@ -262,7 +262,7 @@
     }
 
     .custom-header-section .header__left {
-      width: 100%; /* Ensure left header takes up the available width */
+      width: 50%; /* Ensure left header takes up the available width */
     }
 
     .header__left h1 {
