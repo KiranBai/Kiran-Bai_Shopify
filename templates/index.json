@@ -51,6 +51,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -76,10 +77,17 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "grid_section_BgqL6C": {
+      "type": "GridSection",
+      "settings": {
+        "custom_grid_text": "Tisso vision in the wild"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "grid_section_BgqL6C"
   ]
 }
