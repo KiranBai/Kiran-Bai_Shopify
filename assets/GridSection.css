@@ -28,7 +28,7 @@
   .product-listings {
     display: grid; /* Use grid for layout */
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 20px; /* Equal gap between items */
+    gap: 10px; /* Equal gap between items */
     margin-top: 30px; /* Gap between text and images */
   }
 
@@ -40,7 +40,7 @@
   }
 
   .product-item img {
-    width: 80%; /* Take full width of product item */
+    width: 100%; /* Take full width of product item */
     height: 100%; /* Full height of product item */
     object-fit: cover; /* Cover to fill the item */
   }
