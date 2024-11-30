@@ -346,6 +346,11 @@ top: 10px; /* Adjust as necessary */
 left: 10px; /* Adjust as necessary */
 z-index: 100;
 }
+    .add-icon {
+    width: 50%; /* Make the icon responsive to its container */
+    height: 50%; /* Make the icon responsive to its container */
+    object-fit: cover; /* Keep aspect ratio */
+  }
 
 /* Adjust color and size boxes for mobile */
 .product-item    .icon-container   .add-icon {
