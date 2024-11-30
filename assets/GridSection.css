@@ -1,6 +1,6 @@
 .custom-grid-section {
     margin: 90px 51.5px 51.5px 51.5px; /* Top: 90px, Left/Right/Bottom: 51.5px */
-    width: 600px; /* Total width of the section */
+    width: 1337px; /* Total width of the section */
   }
 
   .grid-container {
@@ -40,7 +40,7 @@
   }
 
   .product-item img {
-    width: 100%; /* Take full width of product item */
+    width: 80%; /* Take full width of product item */
     height: 100%; /* Full height of product item */
     object-fit: cover; /* Cover to fill the item */
   }
