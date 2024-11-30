@@ -13,19 +13,19 @@
     <div class="header__right">
       <a href="{{ section.settings.button_link }}" class="header__button choose-gift">
         <span>CHOOSE GIFT</span>
-        <img src="{{ 'arrow.svg' | asset_url }}" alt="Arrow" class="button-arrow" width="24">
+        <img src="{{ 'arrow.svg' | asset_url }}" alt="Arrow" class="button-arrow" width="24" height="">
       </a>
     </div>
   </div>
 
   <!-- Fixed Image with Overlayed Divs -->
   <div class="header__image-container">
-    <img src="{{ 'fixed-image.png' | asset_url }}" alt="Fixed Banner Image" class="header__image">
+    <img src="{{ 'fixed-image.png' | asset_url }}" alt="Fixed Banner Image" class="header__image" width="" height="">
     <div class="overlay-punchline">{{ section.settings.punchline }}</div>
     <div class="overlay-description">{{ section.settings.description }}</div>
     <a href="{{ section.settings.shop_now_link }}" class="header__button overlay-button shop-now">
       <span>SHOP NOW</span>
-      <img src="{{ 'arrow.svg' | asset_url }}" alt="Arrow" class="button-arrow" width="24">
+      <img src="{{ 'arrow.svg' | asset_url }}" alt="Arrow" class="button-arrow" width="24" height="100">
     </a>
   </div>
 
