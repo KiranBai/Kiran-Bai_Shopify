@@ -34,7 +34,7 @@
 
   .product-item {
     position: relative; /* Enable positioning of the icon */
-    width: 400px; /* Fixed width for product items */
+    width: 433px; /* Fixed width for product items */
     height: 444px; /* Fixed height for product items */
     /* Black border */
   }
